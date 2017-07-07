@@ -6,31 +6,40 @@
   
 <html><title>páMATERIA</title><head>
     <meta charset="UTF-8">    
-</head><body style="margin: 0px;"><style>
+    </head><body style="margin: 0px;"><style>
       
 #navbar { font: 900 10px open sans; letter-spacing: 1px; color: #fff; text-transform: uppercase; padding-top: 15px; float: right; }
 #navbar a { padding-right: 10px; cursor: pointer; }
-#pa-home { background-color: #f3f9ff; }
+#pa-home { background-color: #fff; }
 #pa-home t { color: #fff; font: 100 30px Open Sans; float: left; }
 #pa-home y { border-bottom: 2px solid #fff; }
 #pa-home a { text-decoration: none; }
-
 .mat-capa { margin-bottom: 100px; background: #eee no-repeat top center; width: 100%; padding: 70px 0px; height: 460px; font: 400 13px lato; text-align: left;  }
 .mat-capa p { margin-bottom: -12px; text-indent: 25px; line-height: 140%; }
 .mat-capa l { line-height: 140%; }
 #pa-home tit { font: italic bold 50px Playfair Display; text-align: center; display: block;  line-height: 100%; }
 #pa-home subt { font: 600 11px open sans; text-transform: uppercase; letter-spacing: 1.5px; line-height: 130%; }
 .mat-quote { font: 700 italic 25px playfair display; text-align: left; line-height: 100%; padding: 30px 0px; color: #e85d5d; }
-
 .sp-slideshow { position: relative; margin: 0px auto; width: 1200px; height: 600px; }
     .sp-content { background: #fff; position: relative; width: 100%;height: 100%; overflow: hidden; }
     
-    .sp-parallax-bg {background: #f3f9ff; -webkit-background-size: cover;-moz-background-size: cover;background-size: cover;position: absolute;top: 0;left: 0;width: 100%;height: 100%;overflow: hidden;}
+    .sp-parallax-bg {background: #fff; -webkit-background-size: cover;-moz-background-size: cover;background-size: cover;position: absolute;top: 0;left: 0;width: 100%;height: 100%;overflow: hidden;}
     
     .sp-slideshow input {position: absolute;bottom: 15px;left: 50%;width: 9px;height: 9px;z-index: 1001;cursor: pointer;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter: alpha(opacity=0);opacity: 0;}
     
 .sp-slideshow input + label {position: absolute;bottom: 20px; left: 100%;width: 6px;height: 6px;display: block;z-index: 1000; background-color: #fff; border: 1px solid #e85d5d;-webkit-border-radius: 50%;-moz-border-radius: 50%;border-radius: 50%;-webkit-transition: background-color linear 0.1s;-moz-transition: background-color linear 0.1s;-o-transition: background-color linear 0.1s;-ms-transition: background-color linear 0.1s;transition: background-color linear 0.1s;}
     .sp-slideshow input:checked + label { background-color: #e85d5d;}
+  
+  
+  
+  
+.nav { padding: 30px 0px 0px 0px; color: #fff; color: black; font: 700 9px open sans; background-color: #5cd9ea;  font: 900 25px Lato; text-transform: uppercase; bottom: 0; position: absolute; width: 100%; }
+.nav a { color: white;  } .nav b { font-size: 70px; margin: -20px 30px 0px 0px; float: left; }
+.nav b2 { font-size: 70px; margin: -20px 0px 0px 30px; float: right; }
+@media only screen and (min-width: 992px) { ... }
+@media only screen and (min-height: 800px) { .nav { padding: 30px 0px 0px 0px; color: #fff; color: black; font: 700 9px open sans; background-color: #5cd9ea; font: 900 25px Lato; text-transform: uppercase; } }
+@media only screen and (min-width: 1900px) { .sp-slideshow { position: relative; margin: 90px auto; }  }
+  
   
 </style>
 <style>
@@ -138,30 +147,25 @@
 </style>
 <center>
 <div id="pa-home">
-
       <div style="background: #f1e573; padding: 20px; height: 40px; padding-top: 10px;">
       <center><div style="width: 1080px;">
            <div style="width: 170px; display: inline-table; margin-top: 10px; margin-left: 100px;"><a href="https://paideias.github.io/sumario/" style="font: 900 25px lato; color: white;"><img src="http://i.imgur.com/0haKbHn.png" style="margin-right: 10px; float: left;" />SUMÁRIO</a></div>
       <a href="https://paideias.github.io/home/"><t>PÁ <y>IDEIAS</y></t></a>
             <div id="navbar"><a>comprar</a><a>edições</a><a>favoritos</a><a>contato</a></div>
             </div></center></div>
-
   
-
 <div class="sp-slideshow">
             
    <input id="button-1" type="radio" name="radio-set" class="sp-selector-1" checked="checked" />
    <label for="button-1" class="button-label-1"></label>
    <input id="button-2" type="radio" name="radio-set" class="sp-selector-2" />
    <label for="button-2" class="button-label-2"></label>
-   <input id="button-3" type="radio" name="radio-set" class="sp-selector-3" />
-   <label for="button-3" class="button-label-3"></label>
    
     
    <label for="button-1" class="sp-arrow sp-a1"></label>
    <label for="button-2" class="sp-arrow sp-a2"></label>
-   <label for="button-3" class="sp-arrow sp-a3"></label>
       
+    
     
    <div class="sp-content">
        <div class="sp-parallax-bg"></div>
@@ -171,7 +175,20 @@
            
            
             
-
+<div class="mat-capa" style="background: #fff url(http://i.imgur.com/lJQIN4f.png) no-repeat;"> 
+            <div style="padding: 50px 0px 0px 60px; height: 150px; width: 600px; color: white; text-align: left; ">
+    <tit style="text-align: left;">Grafitti é <br>Vandalismo,<br> Pichação <br>é Arte</tit><br><br>
+      <subt>Luana Kobayashi</subt>
+    </div>
+  
+  <div style="margin: -225px 50px 0px 0px; width: 260px; float: right; background-color: #fff; padding: 40px; padding-top: 20px;">
+  
+  <p>Muitos julgam a pichação como vandalismo, o grafitti como arte; a verdade é que ambos são linguagens diferentes de expressão. O documentário PIXO, ilustra e conceitua bem o valor da pichação para o meio urbano de forma
+  surpreendente. A arte, no cenário mundial parece sair gritando das paredes dos museus indo para fora delas. A pichação, ganhou as ruas de São Paulo, o grafitti ganhou São Paulo e o mundo, documentários recentes como: ‘Cidade cinza’,
+  e ‘Graffiti fine art’ retratam como os urbanos sentem, os humanos gritando com cores.</p>
+<p>Toda arte é, na verdade, um delírio ou um grito, ou os dois. Geralmente, os dois.</p>
+<p>Parecemos ser tão pequenos fazendo parte de algo tão maior quando olhamos para fora. E parecemos ser tão grandes, quando confiantes olhamos para dentro de nós. E quando você olha para o céu, você que é humano, o que você vê? E quem está lá fora, no céu, o que veria se pudesse olhar para nós, humanos? Entre o universo do macrocosmo e do microcosmo: nós, Homo sapiens e a sapiência que tantas vezes parece nos faltar. </p>
+</div></div>
             
            
            
@@ -184,45 +201,41 @@
              
              
              
-
+<div class="mat-capa" style="background: right #fff url(http://i.imgur.com/ejR6XZG.png);">
+  <div style="padding: 0px 0px 0px 60px; margin-top: -17px; width: 230px; float: left;">
+<p>A arte é uma deliciosa ocupação dos nossos sentidos, é um jeito de entender-mos o que acontece por dentro do outro e por dentro de nós. </p>
+<p>Quem é livre não se acostuma com paredes, natureza não tem portas. Alguns olham para dentro, outros olham para fora. Do Brasil que assiste, para o Brasil que se movimenta.
+  A rua vira tela 
+</p>
+</div>
+<div style="padding: 0px 20px 0px 20px; width: 230px; float: left; margin-top: -4px;">
+<l>para o universo que puder enxergá-la. Dentro de casa ninguém te vê, a rua força as pessoas a verem. Todo mundo precisa ir pra rua uma hora, porque a rua é a verdade.
+Gritar com a rotina e ela te ouvir, afinal, quem não é lembrado quase não existiu. Precisamos da interação, cor é refração de luz, não somos nada sem luz, dentro ou fora de nós.
+Aqueles que</l>
+<p style="margin-top: 0px;"> </p>
+</div>
+<div style="padding-right: 20px; margin-top: -3px; width: 220px; float: left;">
+<l>não tem fronteiras para se expressar são mais felizes. Quem não se expressa se sufoca. </l>
+<p style="margin-top: 0px;">Os artistas Fábio Nagate, de Presidente Prudente, e Anderson Ferreira Lemes, mais conhecido como Alemão, de Assis, representam o grafitti no interior paulista e mundial. Afirmando com delicadeza, reforçando o contraste das ruínas do meio urbano e do sonho colorido, lugares pouco prováveis abandonados à própria sorte. </p>
+<p>Nagate, através do seu persona-gem, Macaco, buscar transmitir e ilustrar a evolução no homem em seu universo, representando o primata com o terceiro olho, aliando o físico e o espiritual. </p>
+<p>Alemão, que desde pequeno teve, no desenho, estímulo para o estudo e superação de uma dislexia, procura transmitir em suas intervenções as melhores lembranças de sua infância, balões e bicicletas com muita cor. Os olhos de uma criança são a melhor forma de ver o mundo. </p>
+</div>
              
              
              
              
              
            </li>
-           <li>
-             
-             
-             
-             
-
-             
-             
-             
-           </li>
-            
-           
+          
            
            
            
        </ul>
    </div>     
 </div>
-
-
-
-
-<style>
-.nav { padding: 30px 0px 0px 0px; color: #fff; color: black; font: 700 9px open sans; background-color: #5cd9ea; font: 900 25px Lato; text-transform: uppercase; }
-.nav a { color: white;  } .nav b { font-size: 70px; margin: -20px 30px 0px 0px; float: left; }
-.nav b2 { font-size: 70px; margin: -20px 0px 0px 30px; float: right; }
-  
-</style>
 <div class="nav">
        <div style="width: 560px; DISPLAY: INLINE-TABLE; TEXT-ALIGN: LEFT;"><a href="https://paideias.github.io/materia9/"><b>❮</b>O luto<br> da arte</a></div>
       <div style="width: 530px;  HEIGHT: 94PX; DISPLAY: INLINE-TABLE; TEXT-ALIGN: RIGHT;"><a href="https://paideias.github.io/artigo/"><b2>❯</b2>O design e a cultura<br> visual urbana</a></div>
 </div></center></body>
   </html>
-  
   
